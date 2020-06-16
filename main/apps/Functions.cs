@@ -13,12 +13,11 @@ public class Functions : Application
 
     public override void main()
     {
+        //Test
+        Test.assertTrue(average(scores), 59.940002f);
+        
         //my input
         float[] scores = { 99.2f, 99.2f, 59.1f, 42.7f, 29.1f, 19.0f, 74.4f, 43.5f, 33.3f, 99.9f };
-
-        //test that the average function return expected value;
-        Console.WriteLine("Test: " + assertTrue(average(scores), 59.940002f));
-
         Console.WriteLine(average(scores));
     }
 
