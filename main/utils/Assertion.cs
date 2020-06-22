@@ -2,7 +2,7 @@ using System;
 
 namespace UnitTests
 {
-    public class Test
+    public class Assertion
     {
         public static void assertTrue(float actual, float expected)
         {
